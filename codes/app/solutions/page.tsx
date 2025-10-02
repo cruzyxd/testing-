@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import { ArrowRight, Zap, Database, Brain, CheckCircle } from 'lucide-react'
+import { ArrowRight, Zap, Database, Brain, CircleCheck as CheckCircle } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

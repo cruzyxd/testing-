@@ -12,8 +12,15 @@ export const metadata: Metadata = {
 export default function Approach() {
   return (
     <div className="pt-16">
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Strategic planning"
+            className="w-full h-full object-cover opacity-8"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h1 className="font-heading text-4xl md:text-5xl font-bold text-brand-charcoal mb-6">
               Your Blueprint for{' '}
@@ -27,8 +34,15 @@ export default function Approach() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-neutral-50 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Process implementation"
+            className="w-full h-full object-cover opacity-5"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="relative">
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-accent hidden lg:block"></div>
             
@@ -197,8 +211,15 @@ export default function Approach() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Success metrics"
+            className="w-full h-full object-cover opacity-8"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-charcoal mb-6">
               Why Our Approach Works

@@ -12,8 +12,15 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <div className="pt-16">
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Modern office technology"
+            className="w-full h-full object-cover opacity-8"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h1 className="font-heading text-4xl md:text-5xl font-bold text-brand-charcoal mb-6">
               Building the Future of{' '}
@@ -26,8 +33,15 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-neutral-50 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Business strategy planning"
+            className="w-full h-full object-cover opacity-5"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-charcoal mb-6">
@@ -100,8 +114,15 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Leadership team"
+            className="w-full h-full object-cover opacity-8"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-charcoal mb-6">
               Meet the Founders
@@ -177,8 +198,15 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-neutral-50 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Innovation and technology"
+            className="w-full h-full object-cover opacity-5"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-charcoal mb-6">
               Why Choose O2mations?

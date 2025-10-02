@@ -6,8 +6,15 @@ import { ArrowRight, Zap, Database, TrendingUp, Users, Brain, Workflow } from 'l
 export default function Home() {
   return (
     <div className="pt-16">
-      <section className="hero-gradient py-20 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="hero-gradient py-20 lg:py-32 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Modern technology background"
+            className="w-full h-full object-cover opacity-10"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-brand-charcoal mb-6">
             The Future of Your Business is{' '}
             <span className="brand-emerald">Effortless</span>
@@ -82,8 +89,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-neutral-50 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Collaborative workspace"
+            className="w-full h-full object-cover opacity-5"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-charcoal mb-4">
               Our Philosophy
@@ -172,8 +186,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 lg:py-24 bg-neutral-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 bg-neutral-50 relative overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Professional team environment"
+            className="w-full h-full object-cover opacity-5"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-charcoal mb-6">
